@@ -43,7 +43,7 @@ export default function Home() {
         PREMIUM DIGITAL INVITATIONS
       </p>
 
-      <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight">
+      <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
         India's Most
         <br />
         <span className="text-yellow-400">
@@ -83,8 +83,8 @@ export default function Home() {
               <Image
                 src="/phone1.jpg"
                 alt="Invitation 1"
-                width={220}
-                height={450}
+                width={180}
+                height={360}
               />
             </div>
 
@@ -92,8 +92,8 @@ export default function Home() {
               <Image
                 src="/phone2.jpg"
                 alt="Invitation 2"
-                width={220}
-                height={450}
+                width={200}
+                height={400}
               />
             </div>
 
@@ -101,8 +101,10 @@ export default function Home() {
               <Image
                 src="/phone3.jpg"
                 alt="Invitation 3"
-                width={220}
-                height={450}
+                width={180}
+                height={360
+            
+                }
               />
             </div>
 
@@ -180,7 +182,7 @@ export default function Home() {
           ].map((item) => (
             <div
               key={item}
-              className="border border-yellow-500/20 rounded-2xl p-5 text-center bg-zinc-900"
+              className="bg-zinc-900 rounded-xl p-4 text-center hover:bg-zinc-800 transition"
             >
               {item}
             </div>
@@ -197,7 +199,7 @@ export default function Home() {
           Trending Templates
         </h2>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
 
           {[1, 2, 3, 4].map((item) => (
             <div
@@ -210,7 +212,7 @@ export default function Home() {
                 alt="Template"
                 width={500}
                 height={500}
-                className="w-full"
+                className="w-full h-64 object-cover"
               />
 
               <div className="p-5">
@@ -223,13 +225,13 @@ export default function Home() {
                   Luxury Digital Invitation Reel
                 </p>
 
-                <div className="flex justify-between items-center mt-5">
+                <div className="mt-5">
 
                   <span className="text-yellow-400 font-bold">
                     ₹999
                   </span>
 
-                  <button className="bg-yellow-500 text-black px-4 py-2 rounded-xl font-semibold">
+                  <button className="w-full bg-yellow-500 text-black py-2 rounded-xl font-semibold">
                     View
                   </button>
 
@@ -346,7 +348,7 @@ export default function Home() {
     What Our Clients Say
   </h2>
 
-  <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+  <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
 
     {[
       "Amazing work and quick delivery.",
