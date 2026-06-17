@@ -196,7 +196,7 @@ export default function Home() {
       <section className="max-w-7xl mx-auto px-6 pb-24">
 
         <h2 className="text-4xl font-bold mb-10">
-          Trending Templates Live test
+          Trending Templates
     
         </h2>
 
